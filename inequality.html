@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 
 <head>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script></head>
@@ -8,7 +16,7 @@
 
 <HR>
 <CENTER><H1>Jensen's Inequality</H1></CENTER>
-If <math>$f(x)$</math> is a convex function on the interval <math>$I$</math> and for every <math>$x_1,x_2,\dots,x_n\in I$</math>, we have
+If $f(x)$ is a convex function on the interval $I$ and for every $x_1,x_2,\dots,x_n\in I$, we have
 $$f(\frac{x_1+x_2+\dots +x_n}{n})\leq \frac{f(x_1)+f(x_2)+\dots +f(x_n)}{n}$$
 <HR>
 
