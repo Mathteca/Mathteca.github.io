@@ -21,31 +21,7 @@ body {
 </style>
 <link rel="stylesheet" type="text/css" href="default.css">
 </head>
-<HR>
-<CENTER><H2>Mean Inequality Chain</H2></CENTER>
-<HR>
-<FONT size="4">For nonnegative real number $x_1,x_2,\dots,x_n$,
-$$max\{x_1,x_2,\dots,x_n\} \geq \sqrt{\frac{x_1^2 + x_2^2 + \cdots + x_n^2}{n}} \geq \frac{x_1 + x_2 + \cdots + x_n}{n} \geq \sqrt[n]{x_1 x_2 \cdots x_n} \geq \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + \cdots + \frac{1}{x_n}} \geq min\{x_1,x_2,\dots,x_n\}$$
-The equality holds if and only if $x_1 = x_2 = \cdots = x_n$.<br> Remark: The weighted mean version of this inequality holds.</FONT>
-<HR>
-<CENTER><H2>Cauchy-Schwarz Inequality</H2></CENTER>
-<HR>
-<FONT size="4">for any real numbers $a_1, a_2, \ldots, a_n$ and $b_1, b_2, \ldots, b_n$, $$(a_1^2 + a_2^2 + \cdots + a_n^2)(b_1^2 + b_2^2 + \cdots + b_n^2) \geq (a_1b_1 + a_2b_2 + \cdots + a_nb_n)^2$$</FONT><br>
-(APMO 1991 #3) Let $a_1$, $a_2$, $\cdots$, $a_n$, $b_1$, $b_2$, $\cdots$, $b_n$ be positive real numbers such that $a_1 + a_2 + \cdots + a_n = b_1 + b_2 + \cdots + b_n$. Show that
-$$\frac {a_1^2}{a_1 + b_1} + \frac {a_2^2}{a_2 + b_2} + \cdots + \frac {a_n^2}{a_n + b_n} \geq \frac {a_1 + a_2 + \cdots + a_n}{2}$$
-<HR>
-<CENTER><H2>Jensen's Inequality</H2></CENTER>
-<HR>
-<FONT size="4">If $f(x)$ is a convex function on the interval $I$ and for every $x_1,x_2,\dots,x_n\in I$, we have
-$$f(\frac{x_1+x_2+\dots +x_n}{n})\leq \frac{f(x_1)+f(x_2)+\dots +f(x_n)}{n}$$
-If $f(x)$ is a concave function on the interval $I$ and for every $x_1,x_2,\dots,x_n\in I$, we have
-$$f(\frac{x_1+x_2+\dots +x_n}{n})\geq \frac{f(x_1)+f(x_2)+\dots +f(x_n)}{n}$$
-The equality holds if and only if $x_1=x_2=\dots=x_n$.</FONT>
-<H4>Exercise</H4>
-<FONT size="4">1. Prove AM-GM Inequality by Jensen's Inequality. <BR>
-2. Prove that for any $\triangle ABC$, we have $$\sin{A}+\sin{B}+\sin{C}\leq \frac{3\sqrt{3}}{2}$$
-3. (2001 IMO Problem 1) Let $a,b,c$ be positive real numbers. Prove that $$\frac{a}{\sqrt{a^{2}+8bc}}+\frac{b}{\sqrt{b^{2}+8ca}}+\frac{c}{\sqrt{c^{2}+8ab}}\ge 1$$
-</FONT>
-</body>
+1. (Due to Seungjun_Lee on AoPS) For a positive integer $n$, if $d_1, d_2, \cdots, d_k$ are all the positive divisors of $n$ with $1=d_1<d_2<\cdots<d_k=n$, show that
+$$\sum_{i=1}^{k}{\left(\frac{d_i}{p}\right)} \ge 0$$for all odd prime $p$
 
 </html>
